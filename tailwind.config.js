@@ -22,6 +22,10 @@ module.exports = {
         'desktopStandOut':'url(./images/desktop/image-stand-out.jpg)',
         'desktopGraphicDesign':'url(./images/desktop/image-graphic-design.jpg)',
         'desktopPhotography':'url(./images/desktop/image-photography.jpg)',
+        'desktopMilkbottles':'url(./images/desktop/image-gallery-milkbottles.jpg)',
+        'desktopOrange':'url(./images/desktop/image-gallery-orange.jpg)',
+        'desktopCone':'url(./images/desktop/image-gallery-cone.jpg)',
+        'desktopSugarCubes':'url(./images/desktop/image-gallery-sugarcubes.jpg)',
       },
       fontFamily:{
         'barlow':['Barlow'],
