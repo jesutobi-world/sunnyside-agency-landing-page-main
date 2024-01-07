@@ -8,7 +8,7 @@ module.exports = {
         'transparentSoftRed':'hsla(7, 99%, 70%, 0.4)',
         'yellow': 'hsl(51, 100%, 49%)',
         'transparentYellow': 'hsla(51, 100%, 49%, 0.4)',
-        'darkSaturatedCyan':'hsl(167, 40%, 24%)',
+        'darkDesaturatedCyan':'hsl(167, 40%, 24%)',
         'darkBlue': 'hsl(198, 62%, 26%)',
         'darkModerateCyan':'hsl(168, 34%, 41%)',
         'veryDarkDesaturatedBlue':'  hsl(212, 27%, 19%)',

@@ -618,6 +618,11 @@ video {
   gap: 1.25rem;
 }
 
+.bg-darkModerateCyan{
+  --tw-bg-opacity: 1;
+  background-color: hsl(168 34% 41% / var(--tw-bg-opacity));
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -627,8 +632,16 @@ video {
   text-align: center;
 }
 
+.font-medium{
+  font-weight: 500;
+}
+
 .leading-5{
   line-height: 1.25rem;
+}
+
+.bg-blend-color-burn{
+  background-blend-mode: color-burn;
 }
 
 a::before {
@@ -748,6 +761,10 @@ a::before {
     gap: 2.5rem;
   }
 
+  .lg\:gap-12{
+    gap: 3rem;
+  }
+
   .lg\:gap-20{
     gap: 5rem;
   }
@@ -760,13 +777,16 @@ a::before {
     gap: 2rem;
   }
 
-  .lg\:rounded-full{
-    border-radius: 9999px;
+  .lg\:gap-1{
+    gap: 0.25rem;
   }
 
-  .lg\:bg-white{
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  .lg\:gap-16{
+    gap: 4rem;
+  }
+
+  .lg\:rounded-full{
+    border-radius: 9999px;
   }
 
   .lg\:bg-darkModerateCyan{
@@ -774,9 +794,9 @@ a::before {
     background-color: hsl(168 34% 41% / var(--tw-bg-opacity));
   }
 
-  .lg\:bg-darkSaturatedCyan{
+  .lg\:bg-white{
     --tw-bg-opacity: 1;
-    background-color: hsl(167 40% 24% / var(--tw-bg-opacity));
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
   .lg\:bg-desktopCone{
@@ -807,12 +827,12 @@ a::before {
     background-image: url(./images/desktop/image-stand-out.jpg);
   }
 
-  .lg\:bg-desktopTransform{
-    background-image: url(./images/desktop/image-transform.jpg);
-  }
-
   .lg\:bg-desktopSugarCubes{
     background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+  }
+
+  .lg\:bg-desktopTransform{
+    background-image: url(./images/desktop/image-transform.jpg);
   }
 
   .lg\:bg-cover{
@@ -823,16 +843,16 @@ a::before {
     background-repeat: no-repeat;
   }
 
+  .lg\:p-16{
+    padding: 4rem;
+  }
+
   .lg\:p-20{
     padding: 5rem;
   }
 
   .lg\:p-24{
     padding: 6rem;
-  }
-
-  .lg\:p-8{
-    padding: 2rem;
   }
 
   .lg\:pb-10{
@@ -861,6 +881,10 @@ a::before {
 
   .lg\:pr-28{
     padding-right: 7rem;
+  }
+
+  .lg\:pt-16{
+    padding-top: 4rem;
   }
 
   .lg\:text-center{
@@ -939,14 +963,14 @@ a::before {
     color: hsl(198 62% 26% / var(--tw-text-opacity));
   }
 
+  .lg\:text-darkDesaturatedCyan{
+    --tw-text-opacity: 1;
+    color: hsl(167 40% 24% / var(--tw-text-opacity));
+  }
+
   .lg\:text-darkGrayishBlue{
     --tw-text-opacity: 1;
     color: hsl(232 10% 55% / var(--tw-text-opacity));
-  }
-
-  .lg\:text-darkSaturatedCyan{
-    --tw-text-opacity: 1;
-    color: hsl(167 40% 24% / var(--tw-text-opacity));
   }
 
   .lg\:text-grayishBlue{
