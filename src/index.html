@@ -9,38 +9,48 @@
 </head>
 <body class="w-screen h-auto flex justify-center" >
   <div class="container max-w-[1440px]">
-    <header class="lg:bg-desktopHeader lg:w-full lg:min-h-[600px] lg:bg-no-repeat lg:bg-cover lg:pl-10 lg:pr-10 lg:flex lg:flex-col lg:gap-20 items-center">
-      <nav class="lg:flex lg:justify-between lg:h-[100px] lg:w-full lg:items-center">
-        <div class="logo lg:w-[200px] lg:h-full lg:flex lg:items-center">
-          <img src="./images/logo.svg" alt="logo" class="lg:h-1/4">
+    <header class="bg-mobileHeader w-full h-[600px] bg-no-repeat bg-cover pl-4 pr-4 flex flex-col gap-10 items-center relative lg:bg-desktopHeader lg:w-full lg:min-h-[600px] lg:bg-no-repeat lg:bg-cover lg:pl-10 lg:pr-10 lg:flex lg:flex-col lg:gap-20">
+      <nav class="flex justify-between h-[100px] w-full items-center pl-3 pr-3 lg:pl-0 lg:pr-0 lg:flex lg:justify-between lg:h-[100px] lg:w-full lg:items-center">
+        <div class="w-[200px] h-full flex items-center logo lg:w-[200px] lg:h-full lg:flex lg:items-center">
+          <img src="./images/logo.svg" alt="logo" class="h-[30%] lg:h-1/4">
         </div>
-        <ul class="lg:flex lg:gap-10 lg:items-center" >
+        <ul class="lg:flex lg:gap-10 lg:items-center hidden" >
           <li class="lg:text-medium lg:font-medium lg:text-white lg:font-barlow">About</li>
           <li class="lg:text-medium lg:font-medium lg:text-white lg:font-barlow">Services</li>
           <li class="lg:text-base lg:font-medium lg:text-white lg:font-barlow">Projects</li>
           <li class="lg:font-fraunces lg:bg-white lg:uppercase lg:rounded-full lg:text-xs lg:font-medium lg:w-[90px] lg:h-[40px] lg:flex lg:items-center lg:justify-center lg:shadow-md lg:cursor-pointer lg:hover:bg-transparent lg:hover:text-white lg:transition-colors lg:duration-300 lg:ease-in-out">Contact</li>
         </ul>
+        <div class="w-[200px] h-full flex items-center justify-end lg:hidden">
+          <img src="./images/icon-hamburger.svg" alt="menu-icon" class="h-[30%]">
+        </div>
       </nav>
-      <h1 class="lg:font-fraunces lg:uppercase lg:text-white lg:text-3xl lg:font-extrabold lg:tracking-widest">We are creatives</h1>
+      <h1 class="font-fraunces uppercase text-white text-5xl text-center leading-relaxed lg:leading-0 font-extrabold tracking-widest lg:font-fraunces lg:uppercase lg:text-white lg:text-3xl lg:font-extrabold lg:tracking-widest">We are creatives</h1>
       <div>
         <img src="./images/icon-arrow-down.svg" alt="arrow-icon">
       </div>
+      <ul class="flex flex-col gap-10 items-center lg:hidden absolute top-[140px] bg-white w-[90%] ml-3 mr-3 h-auto pt-10 pb-10" >
+        <li class="text-lg font-semibold text-darkGrayishBlue font-barlow">About</li>
+        <li class="text-lg font-semibold text-darkGrayishBlue font-barlow">Services</li>
+        <li class="text-lg font-semibold text-darkGrayishBlue font-barlow">Projects</li>
+        <li class="font-fraunces bg-yellow uppercase rounded-full text-sm font-bold w-[120px] h-[50px] flex items-center justify-center">Contact</li>
+      </ul>
+      <div class="lg:hidden w-0 h-0 border-t-[40px] border-r-[40px] border-solid  border-r-white border-t-transparent absolute top-[105px] right-[5%]"></div>
     </header>
-    <section class="lg:w-full lg:h-[450px] lg:grid lg:grid-cols-2">
-      <div class="lg:h-full lg:w-full lg:p-24 lg:flex lg:flex-col lg:justify-between">
-        <h2 class="lg:font-fraunces lg:text-4xl lg:font-extrabold lg:text-veryDarkDesaturatedBlue lg:flex lg:flex-col lg:w-[300px]">Transform your brand</h2>
-        <p class="lg:font-barlow lg:text-darkGrayishBlue lg:font-semibold lg:text-base leading-5">We are a full-service creative agency specializing in helping brands grow fast. 
+    <section class="w-[100%] flex flex-col-reverse h-auto lg:w-full lg:h-[450px] lg:grid lg:grid-cols-2">
+      <div class="h-auto gap-10 w-full pt-16 pb-16 pl-8 pr-8 flex flex-col items-center text-center lg:items-start lg:text-left lg:h-full lg:w-full lg:p-24 lg:flex lg:flex-col lg:justify-between">
+        <h2 class="font-fraunces text-5xl font-black text-veryDarkDesaturatedBlue lg:font-fraunces lg:text-4xl lg:font-extrabold lg:text-veryDarkDesaturatedBlue lg:flex lg:flex-col lg:w-[300px]">Transform your brand</h2>
+        <p class="font-barlow text-darkGrayishBlue font-semibold text-xl leading-9 lg:font-barlow lg:text-darkGrayishBlue lg:font-semibold lg:text-base lg:leading-5">We are a full-service creative agency specializing in helping brands grow fast. 
         Engage your clients through compelling visuals that do most of the marketing for you.</p>
-        <a href="#" class="lg:uppercase lg:text-veryDarkDesaturatedBlue lg:font-fraunces lg:font-extrabold lg:text-base lg:relative lg:w-[120px] lg:pb-[8px] lg:before:bg-transparentYellow lg:hover:before:bg-yellow lg:transition-colors lg:duration-300 lg:ease-in-out"  >Learn more</a>
+        <a href="#" class="uppercase text-veryDarkDesaturatedBlue font-fraunces font-extrabold text-base relative w-[120px] pb-[8px] before:bg-transparentYellow lg:uppercase lg:text-veryDarkDesaturatedBlue lg:font-fraunces lg:font-extrabold lg:text-base lg:relative lg:w-[120px] lg:pb-[8px] lg:before:bg-transparentYellow lg:hover:before:bg-yellow lg:transition-colors lg:duration-300 lg:ease-in-out"  >Learn more</a>
       </div>
-      <div class="lg:bg-desktopTransform lg:bg-no-repeat lg:bg-cover"></div>
+      <div class="bg-mobileTransform bg-no-repeat bg-cover h-[400px] w-full lg:h-full lg:bg-desktopTransform lg:bg-no-repeat lg:bg-cover"></div>
     </section>
-    <section class="lg:w-full lg:h-[450px] lg:grid lg:grid-cols-2">
-      <div class="lg:bg-desktopStandOut lg:bg-no-repeat lg:bg-cover"></div>
-      <div class="lg:h-full lg:w-full lg:p-24 lg:flex lg:flex-col lg:justify-between">
-        <h2 class="lg:font-fraunces lg:text-4xl lg:font-extrabold lg:text-veryDarkDesaturatedBlue lg:flex lg:flex-col lg:w-[300px]">Stand out to the right audience</h2>
-        <p class="lg:font-barlow lg:text-darkGrayishBlue lg:font-semibold lg:text-base leading-5">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
-        <a href="#" class="lg:uppercase lg:text-veryDarkDesaturatedBlue lg:font-fraunces lg:font-extrabold lg:text-base lg:relative lg:w-[120px] lg:pb-[8px] lg:before:bg-transparentSoftRed lg:hover:before:bg-softRed lg:transition-colors lg:duration-300 lg:ease-in-out"  >Learn more</a>
+    <section class="w-[100%] flex flex-col h-auto lg:w-full lg:h-[450px] lg:grid lg:grid-cols-2">
+      <div class="bg-mobileStandOut bg-no-repeat bg-cover h-[400px] w-full lg:bg-desktopStandOut lg:bg-no-repeat lg:bg-cover lg:h-full"></div>
+      <div class="h-auto gap-10 w-full pt-16 pb-16 pl-8 pr-8 flex flex-col justify-between items-center text-center lg:text-left lg:items-start lg:h-full lg:w-full lg:p-24 lg:flex lg:flex-col lg:justify-between">
+        <h2 class="font-fraunces text-5xl font-black text-veryDarkDesaturatedBlue lg:font-fraunces lg:text-4xl lg:font-extrabold lg:text-veryDarkDesaturatedBlue lg:flex lg:flex-col lg:w-[300px]">Stand out to the right audience</h2>
+        <p class="font-barlow text-darkGrayishBlue font-semibold text-xl leading-9 lg:font-barlow lg:text-darkGrayishBlue lg:font-semibold lg:text-base lg:leading-5">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+        <a href="#" class="uppercase text-veryDarkDesaturatedBlue font-fraunces font-extrabold text-base relative w-[120px] pb-[8px] before:bg-transparentSoftRed lg:uppercase lg:text-veryDarkDesaturatedBlue lg:font-fraunces lg:font-extrabold lg:text-base lg:relative lg:w-[120px] lg:pb-[8px] lg:before:bg-transparentSoftRed lg:hover:before:bg-softRed lg:transition-colors lg:duration-300 lg:ease-in-out"  >Learn more</a>
       </div>
     </section>
     <section class="lg:w-full lg:h-[450px] lg:grid lg:grid-cols-2">
