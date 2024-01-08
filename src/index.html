@@ -20,7 +20,7 @@
           <li class="lg:text-base lg:font-medium lg:text-white lg:font-barlow">Projects</li>
           <li class="lg:font-fraunces lg:bg-white lg:uppercase lg:rounded-full lg:text-xs lg:font-medium lg:w-[90px] lg:h-[40px] lg:flex lg:items-center lg:justify-center lg:shadow-md lg:cursor-pointer lg:hover:bg-transparent lg:hover:text-white lg:transition-colors lg:duration-300 lg:ease-in-out">Contact</li>
         </ul>
-        <div class="w-[200px] h-full flex items-center justify-end lg:hidden">
+        <div class="w-[200px] h-full flex items-center justify-end lg:hidden" id="hamburger">
           <img src="./images/icon-hamburger.svg" alt="menu-icon" class="h-[30%]">
         </div>
       </nav>
@@ -28,13 +28,13 @@
       <div>
         <img src="./images/icon-arrow-down.svg" alt="arrow-icon">
       </div>
-      <ul class="flex flex-col gap-10 items-center lg:hidden absolute top-[140px] bg-white w-[90%] ml-3 mr-3 h-auto pt-10 pb-10" >
+      <ul class="flex flex-col gap-10 items-center lg:hidden absolute top-[140px] bg-white w-[90%] ml-3 mr-3 h-auto pt-10 pb-10 hidden" id="mobile-nav" >
         <li class="text-lg font-semibold text-darkGrayishBlue font-barlow">About</li>
         <li class="text-lg font-semibold text-darkGrayishBlue font-barlow">Services</li>
         <li class="text-lg font-semibold text-darkGrayishBlue font-barlow">Projects</li>
         <li class="font-fraunces bg-yellow uppercase rounded-full text-sm font-bold w-[120px] h-[50px] flex items-center justify-center">Contact</li>
       </ul>
-      <div class="lg:hidden w-0 h-0 border-t-[40px] border-r-[40px] border-solid  border-r-white border-t-transparent absolute top-[105px] right-[5%]"></div>
+      <div class="lg:hidden w-0 h-0 border-t-[40px] border-r-[40px] border-solid  border-r-white border-t-transparent absolute top-[105px] right-[5%] hidden" id="nav-triangle"></div>
     </header>
     <section class="w-[100%] flex flex-col-reverse h-auto lg:w-full lg:h-[450px] lg:grid lg:grid-cols-2">
       <div class="h-auto gap-10 w-full pt-16 pb-16 pl-8 pr-8 flex flex-col items-center text-center lg:items-start lg:text-left lg:h-full lg:w-full lg:p-24 lg:flex lg:flex-col lg:justify-between">
@@ -115,5 +115,6 @@
       </div>
     </footer>
   </div>
+  <script src="./script.js"></script>
 </body>
 </html>
